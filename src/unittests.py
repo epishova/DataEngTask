@@ -3,7 +3,7 @@
 Unit tests for data_util, donor_list
 """
 import unittest
-import os
+import os.path
 from data_util import round_up, extract_fields, row_valid, transform_fields, read_percentile
 import donor_list
 import recipient_list

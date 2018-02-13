@@ -6,7 +6,7 @@ import csv
 import re
 import decimal
 import sys
-import os
+import os.path
 
 def round_up(number):
     """Round to nearest with ties going away from zero.
